@@ -1,0 +1,4 @@
+user_id,event_type,dt
+user_001,page_view,2025-12-01
+user_002,click,2025-12-01
+user_003,search,2025-12-01
