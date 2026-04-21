@@ -1,4 +1,4 @@
-# AWS Real-Time Data Lakehouse Demo
+# AWS Airline Data Warehouse Demo
 ## Project Introduction
 A cloud-native stream-batch integrated data solution built with AWS services and Apache Kafka (AWS MSK).
 Covers real-time data ingestion, data lake storage, ETL integration, data warehouse modeling, workflow orchestration, monitoring and alerting.
