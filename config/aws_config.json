@@ -1,0 +1,7 @@
+{
+  "region": "ap-southeast-1",
+  "s3_bucket": "data-lake-demo-bucket",
+  "msk_topic": "real-time-event-topic",
+  "redshift_schema": "data_warehouse",
+  "glue_job_name": "demo-data-etl-job"
+}
