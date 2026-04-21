@@ -1,0 +1,15 @@
+{
+  "StartAt": "TriggerETL",
+  "States": {
+    "TriggerETL": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:::function:kafka_trigger",
+      "Next": "CheckJobStatus"
+    },
+    "CheckJobStatus": {
+      "Type": "Wait",
+      "Seconds": 60,
+      "End": true
+    }
+  }
+}
